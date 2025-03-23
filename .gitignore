@@ -1,0 +1,46 @@
+# Ignore target directory (compiled Java classes, build artifacts)
+target/
+out/
+.idea
+
+# Ignore logs
+logs/
+*.log
+test-output/
+*.tmp
+
+# Ignore IntelliJ IDEA files
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# Ignore Maven
+.mvn/
+**/build/
+
+# Ignore dependency caches
+dependency-reduced-pom.xml
+*.jar
+*.war
+*.ear
+
+# Ignore OS-specific & editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+
+# Ignore test reports
+reports/
+allure-results/
+allure-report/
+test-output/
+
+# Ignore screenshots & downloaded images
+screenshots/
+*.png
+*.jpeg
+*.jpg
