@@ -15,6 +15,6 @@ This project is an automation framework designed for **web scraping and content 
 
 ## Run sample build
 - To run it locally, set use_browserstack flag as false in config.properties file and then run the WebScrapingTestForWebDriver test class.
-- To run it on browserstack parallely on 5 different platform across desktop and mobile(configs can be set in browserstack.yml), set use_browserstack flag as false in config.properties file and then run the WebScrapingTestForWebDriver test class.
+- To run it on browserstack parallely on 5 different platform across desktop and mobile(configs can be set in browserstack.yml), set use_browserstack flag as true in config.properties file and then run the WebScrapingTestForWebDriver test class.
 - Once the run is completed, the logs can be found in /logs directory under root level, named as test-log.log
 ---
