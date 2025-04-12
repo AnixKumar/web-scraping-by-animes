@@ -7,6 +7,11 @@ pipeline {
     }
 
     stages {
+        stage('Verify Java Version') {
+            steps {
+                bat 'java -version'
+            }
+        }
         stage('Checkout Code') {
             steps {
                 git url: 'https://github.com/AnixKumar/web-scraping-by-animes.git', branch: 'main'
