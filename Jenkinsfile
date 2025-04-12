@@ -3,7 +3,7 @@ pipeline {
 
     tools {
         maven 'Maven_3.8.6'      // Make sure this is installed/configured in Jenkins
-        jdk 'Java_17'            // Set your actual Java version label from Jenkins tool config
+        jdk 'Java_21'            // Set your actual Java version label from Jenkins tool config
     }
 
     stages {
