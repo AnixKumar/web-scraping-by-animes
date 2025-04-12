@@ -26,7 +26,7 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                bat 'mvn test'
+                bat 'mvn test -Dtest=org/ui/automate/WebScrapingTestForWebDriver'
             }
         }
 
